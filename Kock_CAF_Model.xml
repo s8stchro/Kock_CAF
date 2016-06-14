@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head n="1">
+                <title ana="name-of-poet">ΣΟΥΣΑΡΙΩΝ</title>
+                <ref ana="cross-ref-to-Meineke">Meinek. I 20–26</ref>
+            </head>
+            <div type="commentary">
+                <ab type="textpart" subtype="remarks-to-poet">De comoedia Graecorum ... prae se
+                    ferunt</ab>
+                <ab type="dividing-line"/>
+            </div>
+
+            <div type="edition">
+                <ab type="textpart" subtype="text-of-fragment"/><!-- NB. If only one fragment, then no nummeration -->
+                <ab type="textpart" subtype="transmission-context" n="1">
+                    <ref ana="verses-of-fragment-transmitted-from-source">v. 1–4</ref>
+                    <title ana="title-of-source">Cramer. Anecd. Ox. III 336</title> Σουσαρίων οὗτος
+                    ... ἐπὶ μνήμῃ φέρονται. εἰσὶ δὲ οὗτοι. ἀκούετε κτλ. <title ana="title-of-source">Cram. Anced. Ox. IIII 315.6</title>
+                    <!-- reference to another passage transmitting the same text -->
+                </ab>
+                <ab type="textpart" subtype="transmission-context" n="2">
+                    <ref ana="verses-of-fragment-transmitted-from-source">v. 1. 3. 4</ref>
+                    <title ana="title-of-source">Diomed. III 488 (Keil).</title>
+                </ab>
+                <ab type="textpart" subtype="transmission-context" n="3">
+                    <ref ana="verses-of-fragment-transmitted-from-source">v. 3. 4</ref>
+                    <note>sine auctoris nomine</note>
+                    <title ana="title-of-source">Schol. Arist. Lys. 1038</title>
+                    <title ana="title-of-source">Suid. οὔτε σὺν πανωλέθροισι et
+                    τοὔπος</title><!-- actually reference to different lemmata in Suda -->
+                </ab>
+                <ab type="textpart" subtype="transmission-context" n="4">
+                    <ref ana="verses-of-fragment-transmitted-from-source">v. 1. 3. 4. 5</ref>
+                    <title ana="title-of-source">Stob. Flor. 69, 2.</title>
+                    <title ana="title-of-source">Arsen. 2, 65 (Apostol. I 98 a Leutsch)</title>
+                </ab>
+            </div>
+            
+                <div type="apparatus">
+                    <ab type="textpart" subtype="lemma">λεῴ]</ab><!-- Kock is not consistent;  -->
+                    <ab type="textpart" subtype="variae-lectione">λεώς <ref>Bekk. Anecd. Stob.</ref>
+                    <note>– at semper ... quod moneam.</note></ab>
+            </div>
+           <div type=""> <ab type="dividing-line"/></div>
+            
+            <head n="2">
+                <title ana="name-of-poet">ΕΥΕΤΗΕ ΕΥΞΕΝΙΔΗΣ ΜΥΛΛΟΣ</title>
+                <!--  three poets names together-->
+            </head>
+            <div type="commentary">
+                <ab type="textpart" subtype="remarks-to-poet"/>
+            </div>
+            
+            <div type="edition">
+                <ab type="textpart" subtype="text-of-fragment"/><!-- NB. If only one fragment, then no nummeration -->
+                <ab type="textpart" subtype="transmission-context" n="1">
+                    <ref ana="verses-of-fragment-transmitted-from-source">v. 1–4</ref>
+                    <title ana="title-of-source">Cramer. Anecd. Ox. III 336</title> Σουσαρίων οὗτος
+                    ... ἐπὶ μνήμῃ φέρονται. εἰσὶ δὲ οὗτοι. ἀκούετε κτλ. <title ana="title-of-source">Cram. Anced. Ox. IIII 315.6</title>
+                    <!-- reference to another passage transmitting the same text -->
+                </ab>
+                <ab type="textpart" subtype="transmission-context" n="2">
+                    <ref ana="verses-of-fragment-transmitted-from-source">v. 1. 3. 4</ref>
+                    <title ana="title-of-source">Diomed. III 488 (Keil).</title>
+                </ab>
+                <ab type="textpart" subtype="transmission-context" n="3">
+                    <ref ana="verses-of-fragment-transmitted-from-source">v. 3. 4</ref>
+                    <note>sine auctoris nomine</note>
+                    <title ana="title-of-source">Schol. Arist. Lys. 1038</title>
+                    <title ana="title-of-source">Suid. οὔτε σὺν πανωλέθροισι et
+                        τοὔπος</title><!-- actually reference to different lemmata in Suda -->
+                </ab>
+                <ab type="textpart" subtype="transmission-context" n="4">
+                    <ref ana="verses-of-fragment-transmitted-from-source">v. 1. 3. 4. 5</ref>
+                    <title ana="title-of-source">Stob. Flor. 69, 2.</title>
+                    <title ana="title-of-source">Arsen. 2, 65 (Apostol. I 98 a Leutsch)</title>
+                </ab>
+            </div>
+            
+            <div type="apparatus">
+                <ab type="textpart" subtype="lemma">λεῴ]</ab>
+                <ab type="textpart" subtype="variae-lectione">λεώς <ref>Bekk. Anecd. Stob.</ref>
+                    <note>– at semper ... quod moneam.</note></ab>
+            </div>
+        </body>
+    </text>
+</TEI>
